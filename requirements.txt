@@ -1,7 +1,11 @@
+streamlit
 pandas
 numpy
+plotly
 scikit-learn
 joblib
-streamlit
-openpyxl
 xgboost
+openpyxl
+scipy
+sqlalchemy
+pyodbc
