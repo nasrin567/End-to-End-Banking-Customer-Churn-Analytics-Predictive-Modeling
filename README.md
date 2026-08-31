@@ -49,11 +49,20 @@ The objective is not only to predict churn, but also to translate historical cus
 ---
 
 
+## 🚀 Live Application
+
 <p align="left">
+
 <a href="https://end-to-end-banking-customer-churn-analytics-predictive-modeling.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀_Live_Dashboard-Streamlit-FF4B4B?style=flat-square" alt="Live Dashboard">
+<img src="https://img.shields.io/badge/🚀_Open_Live_Dashboard-FF4B4B?style=for-the-badge" alt="Open Live Dashboard">
 </a>
 
+</p>
+
+---
+
+Explore the interactive dashboard to analyze customer churn, compare machine-learning models, and evaluate customer risk.
+---
 
 ## 🎯 Business Objective
 
@@ -263,65 +272,10 @@ Streamlit
 **Development:**  
 Jupyter Notebook, Git, GitHub
 
----
-
-## 🚀 Live Application
-
-<p align="left">
-
-<a href="https://end-to-end-banking-customer-churn-analytics-predictive-modeling.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀_Open_Live_Dashboard-FF4B4B?style=for-the-badge" alt="Open Live Dashboard">
-</a>
-
-</p>
-
-Explore the interactive dashboard to analyze customer churn, compare machine-learning models, and evaluate customer risk.
-
----
-
-## 💻 Source Code
-
-<p align="left">
-
-<a href="https://github.com/nasrin567/End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling">
-<img src="https://img.shields.io/badge/💻_View_Source_Code-GitHub-181717?style=for-the-badge&logo=github" alt="View Source Code">
-</a>
-
-</p>
-
----
-
-## ⚙️ Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/nasrin567/End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
-cd End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the Streamlit application
-
-```bash
-streamlit run app.py
-```
-
----
 
 ## ⚠️ Disclaimer
 
-This project is intended for educational and portfolio purposes.
+This project is intended for portfolio purposes.
 
 The analysis demonstrates a data-driven approach to customer churn analysis, prediction, and retention decision support. Model predictions should be validated against real-world banking data, business requirements, and appropriate governance processes before being used in production.
 
