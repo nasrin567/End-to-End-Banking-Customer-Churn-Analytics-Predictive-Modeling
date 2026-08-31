@@ -107,3 +107,222 @@ Churn Probability
 Customer Risk Identification
        ↓
 Retention Decision Support
+```
+---
+
+## 🔬 Machine Learning Models
+
+Five classification models were evaluated:
+
+1. Logistic Regression
+2. Random Forest
+3. SVM Polynomial
+4. SVM RBF
+5. XGBoost
+
+### Model Comparison
+
+| Model | Recall | Precision | F1 | ROC-AUC |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 0.652 | 0.328 | 0.437 | 0.743 |
+| Random Forest | 0.660 | 0.482 | 0.558 | 0.831 |
+| SVM Polynomial | 0.671 | 0.496 | **0.570** | 0.817 |
+| SVM RBF | **0.711** | 0.475 | 0.569 | 0.830 |
+| XGBoost | 0.430 | **0.749** | 0.547 | **0.839** |
+
+### Key Model Findings
+
+- **SVM RBF** achieved the highest Recall at **0.711**.
+- **XGBoost** achieved the highest Precision at **0.749**.
+- **SVM Polynomial** achieved the highest F1-score at **0.570**.
+- **XGBoost** achieved the highest ROC-AUC at **0.839**.
+
+The preferred model therefore depends on the business objective rather than selecting a model based on only one evaluation metric.
+
+---
+
+## 📈 Business Analytics
+
+The Streamlit dashboard provides interactive analysis of:
+
+- Customer and churn KPIs
+- Churn by Geography
+- Churn by Age
+- Churn by Number of Products
+- Churn by Active Status
+- Customer-level churn prediction
+- Model performance comparison
+
+### Key Business Findings
+
+- The overall historical churn rate is **20.37%**.
+- The **UK** has the highest number of churned customers in the dataset.
+- Customers with **4 products** show the highest observed churn rate at **100%**.
+- Inactive customers have a higher churn rate than active customers in this dataset.
+- Churn rate varies considerably across customer age groups.
+
+> These findings describe patterns observed in the dataset and should not automatically be interpreted as causal relationships.
+
+---
+
+## 🗂️ Project Structure
+
+```text
+BankChurnProject/
+│
+├── data/
+│   ├── processed/
+│   │   ├── account.csv
+│   │   ├── demographic.csv
+│   │   └── location.csv
+│   └── raw/
+│       └── raw_data.xlsx
+│
+├── eda_queries/
+│   ├── ChurnRate Accross Genders.sql
+│   ├── Difference Average ChrunRate.sql
+│   └── Dynamic Parameters.sql
+│
+├── models/
+│   └── churn_model_bundle.pkl
+│
+├── notebook/
+│   ├── statistical_testing/
+│   │   └── statistical_testing.ipynb
+│   └── test.sql
+│
+├── predictive_modelling/
+│   ├── experiments/
+│   │   ├── exp_LogisticReg.ipynb
+│   │   ├── exp_RandomForest.ipynb
+│   │   ├── exp_SVM_POL.ipynb
+│   │   ├── exp_SVM_RBF.ipynb
+│   │   ├── exp_XGBoost.ipynb
+│   │   └── model_comparison.ipynb
+│   │
+│   ├── processed_data/
+│   │   ├── dataset_bundle.pkl
+│   │   └── preprocessing_bundle.pkl
+│   │
+│   ├── evaluation_script.py
+│   └── preprocessing.py
+│
+├── scripts/
+│   ├── data cleaning/
+│   ├── data_ingestion/
+│   └── utils/
+│
+├── app.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- Python
+- Pandas
+- NumPy
+- SQL
+- SQL Server
+- Exploratory Data Analysis
+- Data Cleaning
+- Statistical Hypothesis Testing
+- Statistical Inference
+- Feature Engineering
+- Machine Learning
+- Classification
+- Model Evaluation
+- Churn Prediction
+- Streamlit
+- Interactive Data Visualization
+- Business Analytics
+- Git & GitHub
+
+---
+
+## 📦 Technologies
+
+**Data & Analysis:**  
+Python, Pandas, NumPy, SQL, SQL Server
+
+**Statistics:**  
+SciPy, Hypothesis Testing, Statistical Inference
+
+**Machine Learning:**  
+Scikit-Learn, XGBoost
+
+**Visualization:**  
+Plotly
+
+**Application:**  
+Streamlit
+
+**Development:**  
+Jupyter Notebook, Git, GitHub
+
+---
+
+## 🚀 Live Application
+
+<p align="left">
+
+<a href="https://end-to-end-banking-customer-churn-analytics-predictive-modeling.streamlit.app/">
+<img src="https://img.shields.io/badge/🚀_Open_Live_Dashboard-FF4B4B?style=for-the-badge" alt="Open Live Dashboard">
+</a>
+
+</p>
+
+Explore the interactive dashboard to analyze customer churn, compare machine-learning models, and evaluate customer risk.
+
+---
+
+## 💻 Source Code
+
+<p align="left">
+
+<a href="https://github.com/nasrin567/End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling">
+<img src="https://img.shields.io/badge/💻_View_Source_Code-GitHub-181717?style=for-the-badge&logo=github" alt="View Source Code">
+</a>
+
+</p>
+
+---
+
+## ⚙️ Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/nasrin567/End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended for educational and portfolio purposes.
+
+The analysis demonstrates a data-driven approach to customer churn analysis, prediction, and retention decision support. Model predictions should be validated against real-world banking data, business requirements, and appropriate governance processes before being used in production.
+
+---
