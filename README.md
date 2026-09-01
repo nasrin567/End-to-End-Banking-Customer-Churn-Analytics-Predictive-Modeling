@@ -257,12 +257,6 @@ End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling/
 │       ├── enviroment.ps1
 │       └── project_structure.py
 │
-├── screenshots/
-│   ├── home.png
-│   ├── business_analytics.png
-│   ├── churn_prediction.png
-│   └── model_performance.png
-│
 ├── app.py
 ├── README.md
 ├── requirements.txt
