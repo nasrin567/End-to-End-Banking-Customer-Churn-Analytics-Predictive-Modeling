@@ -86,7 +86,7 @@ The platform helps answer:
 
 ---
 
-# 3. ⭐ Key Features / Highlights
+# 3. ⭐ Key Features
 
 ### 📊 Business Analytics
 
@@ -268,7 +268,7 @@ End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling/
 └── .gitignore
 
 ```
-## 7. 📈 Results / Key Findings
+## 7. 📈 Results & Key Findings
 
 ### Dataset Overview
 
@@ -286,6 +286,7 @@ The dashboard currently analyzes:
 ---
 
 ### 🤖 Model Performance
+Five machine-learning models were evaluated using Recall, Precision, F1-score, and ROC-AUC.
 
 | Model | Recall | Precision | F1-score | ROC-AUC |
 |---|---:|---:|---:|---:|
@@ -303,64 +304,31 @@ The dashboard currently analyzes:
 | 🔎 Precision | XGBoost | 0.749 |
 | ⚖️ F1-score | SVM Polynomial | 0.570 |
 | 📈 ROC-AUC | XGBoost | 0.839 |
+- Model selection therefore depends on the business objective and the relative cost of false positives and false negatives.
+  
 
-### Interpretation
+### 📊 Key Business Findings
 
-No single model dominates across all evaluation metrics.
+The analysis identified several notable patterns in customer churn:
 
-- **SVM RBF** achieved the highest Recall at **0.711**, making it the strongest model for identifying a larger proportion of actual churn cases.
-- **XGBoost** achieved the highest Precision at **0.749**, producing the most precise positive churn predictions among the evaluated models.
-- **SVM Polynomial** achieved the highest F1-score at **0.570**, providing the best balance between Precision and Recall according to F1.
-- **XGBoost** achieved the highest ROC-AUC at **0.839**, indicating the strongest overall ranking ability among the evaluated models.
+- The dataset contains **10,000 customers**, with a historical churn rate of **20.37%**.
+- Churn varies across **geographic markets**, with the UK recording the highest number of churned customers in the dataset.
+- **Inactive customers** show a substantially higher observed churn rate than active customers.
+- Churn rates vary considerably across **customer age groups**.
+- Customers with **three or four products** show substantially higher observed churn rates than customers with one or two products.
 
-Therefore, model selection should depend on the business objective and the relative cost of false negatives and false positives rather than relying on a single evaluation metric.
+---
+
+### 💼 Business Interpretation
+
+The analysis can support a retention workflow by helping identify customer segments with higher observed churn and by providing individual-level churn predictions.
+
+The dashboard combines historical analysis with predictive modeling so that users can move from:
+
+**Analyze → Predict → Prioritize → Act**
 
 ---
 
-### 📊 Business Findings
-
-#### 🌍 Churn by Geography
-
-The observed number of churned customers is highest in the **UK**, followed by the **USA**.
-
-| Geography | Churned Customers |
-|---|---:|
-| UK | 352 |
-| USA | 349 |
-| France | 345 |
-| Spain | 340 |
-| Canada | 336 |
-| Germany | 315 |
-
-> These figures represent the **number of churned customers**, not the churn rate within each geography.
-
-#### 🟢 Churn by Active Status
-
-Inactive customers show a higher observed churn rate than active customers:
-
-| Customer Status | Churn Rate |
-|---|---:|
-| Inactive | 26.85% |
-| Active | 14.27% |
-
-#### 📦 Churn by Number of Products
-
-The dataset shows substantial differences in observed churn rates across product-count categories:
-
-| Number of Products | Churn Rate |
-|---:|---:|
-| 1 | 27.71% |
-| 2 | 7.58% |
-| 3 | 82.71% |
-| 4 | 100.00% |
-
-> These are observational relationships within the dataset and should not be interpreted as evidence that the number of products itself causes churn.
-
-#### 🎂 Churn by Age
-
-Churn rate varies across customer age groups. The highest observed churn rate in the age-level analysis occurs around **age 56**, at approximately **71.43%**.
-
----
 
 ## 8. 🔮 Future Scope
 
