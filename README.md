@@ -38,72 +38,7 @@
 
 ---
 
-## 📌 Overview
-
-**End-to-End Banking Customer Churn Analytics & Predictive Modeling** is an end-to-end data analytics and machine-learning project focused on understanding customer churn and identifying customers who may be at risk of leaving a banking service.
-
-The project combines **SQL, Python, statistical analysis, machine learning, and an interactive Streamlit dashboard** into a single retention-intelligence workflow.
-
-The objective is not only to predict churn, but also to translate historical customer behavior into actionable business insights.
-
----
-
-
-## 🚀 Live Application
-
-<p align="left">
-
-<a href="https://end-to-end-banking-customer-churn-analytics-predictive-modeling.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀_Open_Live_Dashboard-FF4B4B?style=for-the-badge" alt="Open Live Dashboard">
-</a>
-
-</p>
-
----
-
-Explore the interactive dashboard to analyze customer churn, compare machine-learning models, and evaluate customer risk.
----
-
-
-
-
-----
-
-
-
-
-# 🏦 End-to-End Banking Customer Churn Analytics & Predictive Modeling
-
-> **Turn customer data into retention decisions through analytics, statistical analysis, and machine learning.**
-
-<p align="center">
-
-<a href="YOUR_STREAMLIT_APP_URL">
-<img src="https://img.shields.io/badge/🚀%20Live%20Dashboard-Streamlit-red?style=for-the-badge">
-</a>
-
-<a href="https://github.com/nasrin567/End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling">
-<img src="https://img.shields.io/badge/💻%20Source%20Code-GitHub-black?style=for-the-badge&logo=github">
-</a>
-
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python">
-<img src="https://img.shields.io/badge/SQL%20Server-Database-CC2927?style=flat-square&logo=microsoftsqlserver">
-<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat-square&logo=pandas">
-<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=flat-square&logo=scikit-learn">
-<img src="https://img.shields.io/badge/XGBoost-ML%20Model-189A42?style=flat-square">
-<img src="https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=flat-square&logo=plotly">
-<img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit">
-<img src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
-
-</p>
-
----
-
-# 1. 📌 Overview / Problem Statement
+# 1. 📌 Overview 
 
 Customer churn is a significant challenge in the banking industry because losing existing customers can negatively affect revenue, customer lifetime value, and long-term relationships.
 
@@ -118,9 +53,10 @@ The platform helps answer:
 
 ---
 
-# 2. 🎥 Demo / Screenshots
+# 2. 🚀 Dashboard Demo
 
-## 🚀 Live Dashboard
+
+##  Live Dashboard
 
 <p align="center">
 
