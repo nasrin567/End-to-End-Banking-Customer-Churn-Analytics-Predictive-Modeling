@@ -65,24 +65,21 @@ The platform helps answer:
 </a>
 
 </p>
+### 🏠 Home
 
-## 🏠 Dashboard Home
+![Bank Churn Intelligence - Home](dashboard/home.png)
 
-![Bank Churn Intelligence - Home](screenshots/home.png)
+### 📊 Business Analytics
 
-## 📊 Business Analytics
+![Business Analytics](dashboard/business_analytics.png)
 
-![Business Analytics Dashboard](screenshots/business_analytics.png)
+### 🔮 Customer Churn Prediction
 
-## 🔮 Customer Churn Prediction
+![Customer Churn Prediction](dashboard/churn_prediction.png)
 
-![Customer Churn Prediction](screenshots/churn_prediction.png)
+### 🤖 Model Performance
 
-## 🤖 Model Performance
-
-![Model Performance](screenshots/model_performance.png)
-
-> The application contains four main sections: **Home, Business Analytics, Churn Prediction, and Model Performance.**
+![Model Performance](dashboard/model_performance.png)
 
 ---
 
