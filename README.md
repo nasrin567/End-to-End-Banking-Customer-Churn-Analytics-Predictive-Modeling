@@ -124,7 +124,7 @@ The platform helps answer:
 
 <p align="center">
 
-<a href="YOUR_STREAMLIT_APP_URL">
+<a href="https://end-to-end-banking-customer-churn-analytics-predictive-modeling.streamlit.app/">
 <img src="https://img.shields.io/badge/🚀%20OPEN%20LIVE%20DASHBOARD-FF4B4B?style=for-the-badge&logo=streamlit">
 </a>
 
@@ -331,3 +331,185 @@ End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling/
 ├── requirements.txt
 └── .gitignore
 
+```
+## 7. 📈 Results / Key Findings
+
+### Dataset Overview
+
+The dashboard currently analyzes:
+
+| Metric | Result |
+|---|---:|
+| Total Customers | 10,000 |
+| Churned Customers | 2,037 |
+| Historical Churn Rate | 20.37% |
+| Average Balance | ~$119,827 |
+| Average Salary | ~$100,090 |
+| Models Evaluated | 5 |
+
+---
+
+### 🤖 Model Performance
+
+| Model | Recall | Precision | F1-score | ROC-AUC |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 0.652 | 0.328 | 0.437 | 0.743 |
+| Random Forest | 0.660 | 0.482 | 0.558 | 0.831 |
+| SVM Polynomial | 0.671 | 0.496 | **0.570** | 0.817 |
+| SVM RBF | **0.711** | 0.475 | 0.569 | 0.830 |
+| XGBoost | 0.430 | **0.749** | 0.547 | **0.839** |
+
+### 🏆 Best-Performing Models by Metric
+
+| Metric | Best Model | Score |
+|---|---|---:|
+| 🎯 Recall | SVM RBF | 0.711 |
+| 🔎 Precision | XGBoost | 0.749 |
+| ⚖️ F1-score | SVM Polynomial | 0.570 |
+| 📈 ROC-AUC | XGBoost | 0.839 |
+
+### Interpretation
+
+No single model dominates across all evaluation metrics.
+
+- **SVM RBF** achieved the highest Recall at **0.711**, making it the strongest model for identifying a larger proportion of actual churn cases.
+- **XGBoost** achieved the highest Precision at **0.749**, producing the most precise positive churn predictions among the evaluated models.
+- **SVM Polynomial** achieved the highest F1-score at **0.570**, providing the best balance between Precision and Recall according to F1.
+- **XGBoost** achieved the highest ROC-AUC at **0.839**, indicating the strongest overall ranking ability among the evaluated models.
+
+Therefore, model selection should depend on the business objective and the relative cost of false negatives and false positives rather than relying on a single evaluation metric.
+
+---
+
+### 📊 Business Findings
+
+#### 🌍 Churn by Geography
+
+The observed number of churned customers is highest in the **UK**, followed by the **USA**.
+
+| Geography | Churned Customers |
+|---|---:|
+| UK | 352 |
+| USA | 349 |
+| France | 345 |
+| Spain | 340 |
+| Canada | 336 |
+| Germany | 315 |
+
+> These figures represent the **number of churned customers**, not the churn rate within each geography.
+
+#### 🟢 Churn by Active Status
+
+Inactive customers show a higher observed churn rate than active customers:
+
+| Customer Status | Churn Rate |
+|---|---:|
+| Inactive | 26.85% |
+| Active | 14.27% |
+
+#### 📦 Churn by Number of Products
+
+The dataset shows substantial differences in observed churn rates across product-count categories:
+
+| Number of Products | Churn Rate |
+|---:|---:|
+| 1 | 27.71% |
+| 2 | 7.58% |
+| 3 | 82.71% |
+| 4 | 100.00% |
+
+> These are observational relationships within the dataset and should not be interpreted as evidence that the number of products itself causes churn.
+
+#### 🎂 Churn by Age
+
+Churn rate varies across customer age groups. The highest observed churn rate in the age-level analysis occurs around **age 56**, at approximately **71.43%**.
+
+---
+
+## 8. 🔮 Future Scope
+
+The current project provides an end-to-end foundation for banking customer churn analysis and prediction. Future improvements could include:
+
+### 🎯 Advanced Churn Modeling
+
+- Hyperparameter optimization
+- Cross-validation
+- Improved class-imbalance handling
+- Business-driven probability threshold optimization
+- Probability calibration
+- Explainable AI using SHAP
+- Model interpretability analysis
+
+### 📊 Advanced Analytics
+
+- Customer segmentation
+- Cohort analysis
+- Customer lifetime value estimation
+- Retention campaign analysis
+- Churn trend monitoring
+- Customer risk distribution analysis
+
+### 🤖 Prediction Improvements
+
+- Automated risk thresholds
+- Low / Medium / High risk segmentation
+- Batch prediction for multiple customers
+- Customer-level risk ranking
+- Prediction explanation and contributing factors
+- Retention recommendation personalization
+
+### 📈 Dashboard Improvements
+
+- More interactive filters
+- Customer segmentation controls
+- Risk distribution visualizations
+- Model explainability dashboard
+- Retention campaign simulation
+- Interactive customer-level analytics
+
+---
+
+## 🧠 End-to-End Workflow
+
+```text
+Data Ingestion
+      ↓
+Data Cleaning
+      ↓
+SQL Analysis
+      ↓
+Statistical Testing
+      ↓
+Feature Engineering
+      ↓
+Machine Learning
+      ↓
+Model Evaluation
+      ↓
+Model Serialization
+      ↓
+Streamlit Dashboard
+      ↓
+Customer Risk Prediction
+      ↓
+Retention Decision Support
+```
+## 📌 Project Takeaway
+
+This project demonstrates an end-to-end workflow for transforming banking customer data into actionable churn intelligence.
+
+It combines:
+
+**SQL → Python → Statistics → Machine Learning → Model Evaluation → Streamlit**
+
+The final application brings together **business-level churn analysis**, **machine-learning model comparison**, and **individual customer churn prediction** within a single interactive dashboard.
+
+The overall workflow demonstrates how historical customer behavior can be analyzed, modeled, and translated into retention-oriented decision support.
+
+---
+
+## 👤 Author
+
+**Nasrin Khatoon**
+
+Data Analytics | Python | SQL | Machine Learning | Business Intelligence
