@@ -65,6 +65,7 @@ The platform helps answer:
 </a>
 
 </p>
+
 ### 🏠 Home
 
 ![Bank Churn Intelligence - Home](dashboard/home.png)
