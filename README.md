@@ -199,6 +199,11 @@ Models are compared using:
 ```text
 End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling/
 │
+├── dashboard/
+│   ├── business_analytics.png
+│   ├── churn_prediction.png
+│   ├── home.png
+│   └── model_performance.png
 ├── data/
 │   ├── processed/
 │   │   ├── account.csv
@@ -207,8 +212,6 @@ End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling/
 │   │
 │   └── raw/
 │       └── raw_data.xlsx
-│
-├── data_visualization/
 │
 ├── eda_queries/
 │   ├── ChurnRate Accross Genders.sql
