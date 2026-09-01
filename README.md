@@ -263,6 +263,69 @@ End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling/
 └── .gitignore
 
 ```
+
+## 6. 🚀 Installation & Usage
+
+### 6.1 Clone the Repository
+
+```bash
+git clone https://github.com/nasrin567/End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd End-to-End-Banking-Customer-Churn-Analytics-Predictive-Modeling
+```
+
+### 6.2 Create a Virtual Environment
+
+For Windows:
+
+```bash
+python -m venv myenv
+```
+
+Activate the virtual environment:
+
+```bash
+myenv\Scripts\activate
+```
+
+### 6.3 Install Dependencies
+
+Install all required Python packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6.4 Run the Streamlit Dashboard
+
+Start the application with:
+
+```bash
+streamlit run app.py
+```
+
+The dashboard will open in your default web browser.
+
+### 🔄 Installation Workflow
+
+```text
+Clone Repository
+       ↓
+Create Virtual Environment
+       ↓
+Activate Environment
+       ↓
+Install Dependencies
+       ↓
+Run Streamlit Application
+       ↓
+Explore Bank Churn Intelligence Dashboard
+```
+
 ## 7. 📈 Results & Key Findings
 
 ### Dataset Overview
